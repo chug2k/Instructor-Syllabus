@@ -80,7 +80,9 @@ And we can add some starting text we'll see when its rendered to assure that all
 ```
 #### check your work
 
-From the root, run rails s
+From the root, run: `rails s`
+Then navigate to `localhost:{Port #}`
+
 
 ![single page app with component](../assets/single-page-app-with-component.png)
 
