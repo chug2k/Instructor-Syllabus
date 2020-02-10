@@ -24,7 +24,7 @@ rails generate react:install
 yarn install
 ```
 
-### 2) Add the webpack to the layout
+### 2) Check webpack was added to the layout
 
 #### app/views/layouts/application.html.erb
 ```result
