@@ -16,7 +16,7 @@ We'll re-visit:
 ```bash
 rails new single_page_app
 cd single_page_app
-bundle add webpacker react-rails
+bundle add react-rails
 bundle install
 rails webpacker:install
 rails webpacker:install:react
