@@ -149,6 +149,8 @@ Once that is done, we can use Reactstrap components on our page.  Let's try it o
 :
 : export default MainApp
 ```
+#### reload rails
+Before refreshing the page to see your work, restart the rails server so that it can recognize everything new we just installed. Then go to your page to see the effect take place.
 
 ![reactstrap nav](../assets/react-strap-nav.png)
 
