@@ -78,6 +78,9 @@ And we can add some starting text we'll see when its rendered to assure that all
 : <h1>Single Page App Example</h1>
 : <%= react_component('MainApp') %>
 ```
+#### check your work
+
+From the root, run rails s
 
 ![single page app with component](../assets/single-page-app-with-component.png)
 
