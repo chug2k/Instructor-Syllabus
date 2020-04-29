@@ -148,6 +148,7 @@ Notice that in our loops we use `let` to assign `i` or `index` to a starting val
 
   Expected output -->> 1, 2, "fizz", 4, "buzz", 6, 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz" ...etc
 
+[Go to lecture notes: JavaScript Loops](./loops.js)
 
 [Go to next lesson: JavaScript Functions](./functions.md)
 
