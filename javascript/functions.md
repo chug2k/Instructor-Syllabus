@@ -211,6 +211,8 @@ However, we can only have 1 return in a function.  Note that code after the func
 
 ### Practice functions with [Edabit](https://edabit.com/challenges/javascript)
 
+[Go to lecture notes: JavaScript Functions](./functions.js)
+
 [Go to next lesson: JavaScript Functions, Loops, and Arrays](./functions-loops-arrays.md)
 
 [Back to JavaScript Loops](./loops.md)
