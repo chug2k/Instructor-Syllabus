@@ -262,6 +262,8 @@ Also notice that the variables are assigned in order. As in, the first variable 
 - Output the random answer
 
 
+[Go to lecture notes: JavaScript Arrays](./arrays.js)
+
 [Go to next lesson: JavaScript Loops](./loops.md)
 
 [Back to JavaScript Conditionals](./conditionals.md)
