@@ -44,41 +44,16 @@ We will focus on two higher-order functions for this lesson - **.map()** and **.
 
 
 ```js
-const officeStaff = [
-  { name: "Jim", age: 15 },
-  { name: "Pam", age: 29 },
-  { name: "Dwight", age: 17 },
-  { name: "Michael", age: 16 },
-  { name: "Creed", age: 55 },
-  { name: "Erin", age: 16 }
-];
+const officeStaff = ["Jim","Pam","Michael","Creed","Dwight"]
 
-officeStaff.forEach(staff => console.log(staff.age));
+officeStaff.forEach(staff => console.log(staff));
 
-const canWatchRatedR = officeStaff.filter(function(staff) {
-  return staff.age > 17;
+const hasAnA = officeStaff.filter(function(staff) {
+  return staff.includes("a");
 });
 
-console.log(canWatchRatedR);
+console.log(hasAnA);
 
-const cardedMoviePatrons = officeStaff.map(staff => {
-  // Copy the object being iterated over
-  const pObj = { ...staff };
-  // Do everything else the same
-  if (pObj.age >= 17) {
-    pObj.canWatchRatedR = true;
-  } else {
-    pObj.canWatchRatedR = false;
-  }
-  // Be sure to return the new obj, not the parameter
-  return pObj;
-});
-
-console.log("Movie Patrons: ")
-console.log(officeStaff);
-
-console.log("\nCarded Movie Patrons: ");
-console.log(cardedMoviePatrons);
 ```
 
 What the arguments are named is arbitrary, but the order will always be the same. The higher-order functions have to take at least one argument (value) but can take two or three if needed.
@@ -153,7 +128,7 @@ const capitalizer = (array) => {
   // create a local variable that maps through the array
   let eachItem = array.map(value => {
     // with each value access the first index and capitalize the letter then concatenate the remainder of the word
-    return value[0].toUpperCase() + value.substring(1)
+    return value[0].toUpperCase() + value.slice(1)
   })
   // return the local variable joined into a string
   return eachItem.join(" ")
