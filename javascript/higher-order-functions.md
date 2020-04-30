@@ -8,6 +8,7 @@
 
 ## Learning Objectives
 - Understanding the anatomy of a higher-order function
+- Understanding the use for .forEach()
 - Understanding the use for .map()
 - Understanding the use for .filter()
 - Understanding the three specific arguments available to .map() and .filter()
@@ -24,7 +25,61 @@
 ## Higher-Order Functions
 A higher-order function is simply a function that either takes in another function as an argument or returns another function as an output.
 
+
 We will focus on two higher-order functions for this lesson - **.map()** and **.filter()** both have three built-in arguments - the value, index, and array.
+
+* Each of these are array methods, and they:
+
+    * Work on an arrays
+
+    * Run a callback function once for each element in the array
+
+    * Pass the each element into the callback as an argument
+
+## .forEach()
+* Know that `filter` and `map` are used heavily in React when rendering elements from array data. You have probably seen `forEach` already, but it's a good stepping stone for understanding `filter` and `map`.
+
+* `forEach` is the simplest array method. It runs the callback for each element in the array
+
+
+
+```js
+const officeStaff = [
+  { name: "Jim", age: 15 },
+  { name: "Pam", age: 29 },
+  { name: "Dwight", age: 17 },
+  { name: "Michael", age: 16 },
+  { name: "Creed", age: 55 },
+  { name: "Erin", age: 16 }
+];
+
+officeStaff.forEach(staff => console.log(staff.age));
+
+const canWatchRatedR = officeStaff.filter(function(staff) {
+  return staff.age > 17;
+});
+
+console.log(canWatchRatedR);
+
+const cardedMoviePatrons = officeStaff.map(staff => {
+  // Copy the object being iterated over
+  const pObj = { ...staff };
+  // Do everything else the same
+  if (pObj.age >= 17) {
+    pObj.canWatchRatedR = true;
+  } else {
+    pObj.canWatchRatedR = false;
+  }
+  // Be sure to return the new obj, not the parameter
+  return pObj;
+});
+
+console.log("Movie Patrons: ")
+console.log(officeStaff);
+
+console.log("\nCarded Movie Patrons: ");
+console.log(cardedMoviePatrons);
+```
 
 What the arguments are named is arbitrary, but the order will always be the same. The higher-order functions have to take at least one argument (value) but can take two or three if needed.
 
@@ -41,7 +96,7 @@ What the arguments are named is arbitrary, but the order will always be the same
 
 ## .map()
 
-The .map() function iterates through an array and returns a new array of the same length.
+The .map() function iterates through an array and returns a new array of the same length. Whatever is returned by the callback on each iteration is what goes into the new array. We can use this to create a new array of modified elements, or elements computed from values in the original array.
 
 Here is an example of iterating using a for loop:
 
@@ -110,7 +165,7 @@ console.log(capitalizer(fruitArray))
 
 ## .filter()
 
-The .filter() function loops through an array and returns a new array with only the values that are **truthy** or the values that satisfy your stated condition. Filter will return a subset of the given array.
+The .filter() function loops through an array and returns a new array with only the values that are **truthy** or the values that satisfy your stated condition. Filter will return a subset of the given array. If an element's callback function returns a truthy value, it is added to the newly returned array, otherwise it is _filtered_ out and doesn't get added to the new array.
 
 Here is an example of iterating and returning a subset using a for loop:
 
@@ -165,6 +220,12 @@ console.log(getOnlyOddIndex(numbers))
 ## .map() vs .filter()
 
 When deciding which higher-order function to use, remember that .map() will do something to each item in an array and return the same number of items.  Whereas .filter() will return a new, smaller array `filtered` based on your specified criteria.
+
+* "When's a time in real life when you need to _map_ over something?"
+
+  * When you're _mapping_ through your todolist and marking off all the things you've completed for the day.
+
+  * When you're _mapping_ through your laundry pile, categorizing your clothes so you can put them into the correct drawers.
 
 ## Challenges
 
