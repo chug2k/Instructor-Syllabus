@@ -1,15 +1,5 @@
 # Rails Forms
 
-https://player.vimeo.com/video/155715320
-
-## Video: Ruby Assessment & Rails Models Review
-
-[![YouTube](http://img.youtube.com/vi/-CDpoSQTme0/0.jpg)](https://www.youtube.com/watch?v=-CDpoSQTme0)
-
-## Video: Rails Forms
-
-[![YouTube](http://img.youtube.com/vi/9UGcF6pnAag/0.jpg)](https://www.youtube.com/watch?v=9UGcF6pnAag)
-
 ## Overview
 - Adding CRUD operations for the user to see, add, edit, and delete information from the database
 - Building a `get` request for a method called `new` and a `post` request for method called `create`
@@ -23,21 +13,21 @@ https://player.vimeo.com/video/155715320
 - CRUD
 - RESTful routes
 
+## Set Up
+
 #### Creating a new Rails app:
 ```
-rails new myapp -d postgresql -T
-cd myapp
-rails db:create
-rails server
+$ rails new myapp -d postgresql -T
+$ cd myapp
+$ rails db:create
+$ rails server
 ```
 
 In a browser navigate to:
 `http://localhost:3000`
-or
-`127.0.0.1:3000` to view the Rails application
+
 
 ## Creating a Form
-
 As developers, we want our users to be able add information to our web application that is then stored in the database. So far, the only way we have adding new information to the database is through the terminal. Obviously, we want our user to have an easier way to add, update, and delete information.
 
 ### Set up

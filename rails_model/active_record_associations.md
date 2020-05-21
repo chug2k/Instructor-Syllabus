@@ -11,7 +11,7 @@
   - Notice the belongs_to are all plural
   - Creating DRY code: person/email could get messy if you need columns for all the email addresses
 - Foreign key
-  -
+
 
 ## Types of Relationships
 Rails supports six types of associations:

@@ -14,6 +14,13 @@
 - <a href="https://guides.rubyonrails.org/active_record_querying.html" target="blank">Active Record Docs</a>
 
 
+
+
+## Troubleshooting
+- $ bundle exec rspec spec/models/country_query_spec.rb
+if there is an issue running the RSPec command
+
+
 ## SQL vs. Active Record
 We only need to learn a few rules specific to ActiveRecord in order to unlock a powerful tool to interact with the database.
 
