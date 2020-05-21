@@ -1,4 +1,4 @@
-# Ruby Loops
+# Ruby Blocks
 
 ## Overview (from syllabus)
 - Ruby has lots of iteration methods
@@ -36,8 +36,6 @@
 A block is an anonymous function that gets passed to a method and returns a value. Ruby-ists really like blocks because it allows you to customize built in methods.
 
 A block is a lot like a higher order function like we saw in JavaScript. Blocks can be passed their own local variables and return an item to the next higher scope.
-
-https://www.rubyguides.com/2018/10/ruby-map-method/
 
 Blocks can be defined two ways: using the key words do/end or with curly braces. Generally speaking, the do/end should be used if the block is more than one line of code. Curly braces are used for code that can be written in one line - just like the difference between map and filter when we need to return more than one line of code.
 
