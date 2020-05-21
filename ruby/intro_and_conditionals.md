@@ -37,6 +37,8 @@ Intro and Conditionals
 - creating a Ruby file
 - output to the terminal
 - user input
+- if/else/end
+- string interpolation
 
 ## Lecture
 Ruby is a dynamic, scripting, open-source, object-oriented programming language. Ruby was released in 1995 by computer scientist Yuki-hiro Matsumoto who is affectionately known to in the Ruby community as Mats. He is a very benevolent and respectful leader in the programming community so his demeanor has spanned the saying "Matz is nice and so we are nice" or MINASWAN for short.
