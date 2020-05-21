@@ -39,7 +39,9 @@ Objects are another JS data type that describe a collection of data
 Technically arrays are actually also objects
 
 Run this in the browser console:
+```
 typeof [1, 2, 3, 4]
+```
 // returns object
 
 The structure of an object is a collection of key: value pairs wrapped in curly braces
@@ -47,25 +49,31 @@ The structure of an object is a collection of key: value pairs wrapped in curly 
 The keys can be created two different ways: as strings or as symbols
 
 Strings are a more old school way of declaring variables, the newer cool way is to create a symbol
-// {key: "value"}
-// {"key": "value"}
+```
+{key: "value"}
+{"key": "value"}
+```
 
 Values can be anything as long as it is a data type that JavaScript recognizes - including arrays and other objects
 
 Objects can have as many key:values pairs as necessary, key:values are separated by commas
-
-// {key1: "value1", key2: "value2", key3: "value3"}
+```
+{key1: "value1", key2: "value2", key3: "value3"}
+```
 
 Objects can be saved as variables
-// let myObject = {"key1": "value1", key2: "value2", key3: "value3"}
+```
+let myObject = {"key1": "value1", key2: "value2", key3: "value3"}
+```
 
 Objects that are more than a couple items long should be dropped onto new lines
-
-// let myObject = {
-//   key1: "value1",
-//   key2: "value2",
-//   key3: "value3"
-// }
+```
+let myObject = {
+  key1: "value1",
+  key2: "value2",
+  key3: "value3"
+}
+```
 
 This syntax is called JSON - JavaScript Object Notation
 
@@ -80,16 +88,17 @@ To do this we use dot notation
 We can call the key to retrieve the value
 
 To get the value, console.log() the name of the object and with dot notation reference the key of the value you want to retrieve
+```
+console.log(myObject.key1)
+console.log(myObject.key2)
+```
 
-//console.log(myObject.key1)
-//console.log(myObject.key2)
-
-Destructuring
+#### Destructuring
 There is a shortcut to using dot notation that is very common as we get into more complex objects. It is called destructuring.
 
 It allows us to save a object name and key set as a variable - a specific variable - a variable with the same name as a key
-
-// var breakfast = {
+```
+var breakfast = {
   item1: "eggs",
   item2: "bacon",
   item3: "toast",
@@ -99,20 +108,28 @@ It allows us to save a object name and key set as a variable - a specific variab
     fruit3: "strawberry"
   }
 }
+```
 
-// console.log(breakfast.item4.fruit1)
-// console.log(fruit1) - will get an error
+```
+console.log(breakfast.item4.fruit1)
+console.log(fruit1) - will get an error
+```
 
 Then show:
-// let { fruit1 } = breakfast.item4
-// console.log(fruit1)
+```
+let { fruit1 } = breakfast.item4
+console.log(fruit1)
+```
 
-// let { fruit1, fruit2, fruit3 } = breakfast.item4
-// console.log(fruit1)
-// console.log(fruit2)
-// console.log(fruit3)
+Destructure multiple keys at once
+```
+let { fruit1, fruit2, fruit3 } = breakfast.item4
+console.log(fruit1)
+console.log(fruit2)
+console.log(fruit3)
+```
 
-
+#### Methods
 Objects can contain static information but they also can contain functions which make objects the intersection of data and behavior
 
 Objects are the intersection of data and behavior - and behavior is functions
@@ -131,8 +148,8 @@ We need to use dot notation to access the values, but when we are still within t
 Now 'this' is a weird thing to talk about because this topic is confusing when talking about 'this' within the context of a sentence like this. So I am going to write this keyword, this on a postit. I will hold this up when I am talking about 'this' and not just using this in my regular speech.
 
 
-
-// var friends = {
+```
+var friends = {
   friend1: "Monica",
   friend2: "Chandler",
   friend3: "Ross",
@@ -140,26 +157,28 @@ Now 'this' is a weird thing to talk about because this topic is confusing when t
     return `Our friends are ${this.friend1}, ${this.friend2}, ${this.friend3}.`
   }
 }
-// console.log(friends.bio())
-
+console.log(friends.bio())
+```
 
 
 
 Another way that we can interact with objects is through an array. Now each object represents one place, one index in the array.
 
 Write it long like this, then drop it down to show line breaks
+```
 var cashMoney = [{worth: 1, president: "Geroge"}, {worth: 5, president: "Lincoln"}, {worth: 10, president: "Hamilton"}, {worth: 20, president: "Jackson"}]
-
+```
 Prompt: Create a function that returns the president and whether the worth is even or odd
 
 map is a JS method just like any other, it is chained to the end of the element it is acting on, and it take an argument - the thing is that it takes as an argument is another function - so when we are talking about a whole other function, we need an argument that is passed in and a return that holds the output
-
-// const oddPres = (array) => {
-//   array.map(value => {
-//     console.log(value)
-//   })
-// }
-// console.log(oddPres(cashMoney))
+```
+const oddPres = (array) => {
+  array.map(value => {
+    console.log(value)
+  })
+}
+console.log(oddPres(cashMoney))
+```
 
 Value is the same thing as looping through an array and logging array[i] - because array[i] is really just the value
 
@@ -168,20 +187,23 @@ Prompt: Create a function that returns the president and whether the worth is ev
 Have the full array, but have to make an evaluation about the worth
 
 map - array that is returned is the same length, filter, array is shorter
-// const oddPres = (array) => {
-//   array.map(value => {
-//     if(value.worth % 2 === 0){
-//       console.log("even", value.worth)
-//     } else if (value.worth % 2 !== 0){
-//       console.log("odd", value.worth)
-//     }
-//   })
-// }
-// console.log(oddPres(cashMoney))
+```
+const oddPres = (array) => {
+  array.map(value => {
+    if(value.worth % 2 === 0){
+      console.log("even", value.worth)
+    } else if (value.worth % 2 !== 0){
+      console.log("odd", value.worth)
+    }
+  })
+}
+console.log(oddPres(cashMoney))
+```
 
-Now we need to return stuff
+Now we need to return stuff rather than console.log
 
-// const oddPres = (array) => {
+```
+const oddPres = (array) => {
   let pres = array.map(value => { // return this first - save it to a variable second
     if(value.worth % 2 === 0){
       return `${value.president} is even.`
@@ -189,10 +211,11 @@ Now we need to return stuff
       return `${value.president} is odd.`
     }
   })
-  Add this later - first without quotes, then add a space:
+  // Add this later - first without quotes, then add a space:
   return pres.join(" ")
 }
 console.log(oddPres(cashMoney))
+```
 
 This returns an array of items. Map always returns an array. If you don't want an array, we can manipulate that by saving it to a variable.
 
@@ -201,11 +224,8 @@ The fundamentals of programming are all about manipulating data. Can you as a de
 
 
 
-
-
-
 ## Buildout of Challenges
-
+```javascript
 // Consider this variable:
 var person = {
   firstName: "Arthur",
@@ -323,3 +343,4 @@ console.log(describePokemon(pokeOne))
 // --> "Charmandar is a Fire pokemon"
 console.log(describePokemon(pokeTwo))
 // --> "Magikarp is a Water pokemon"
+```
