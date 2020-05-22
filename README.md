@@ -1,8 +1,10 @@
 # Syllabus
 
-## Unit One: Javascript Foundations
+## Resources
+- [Intro to How the Internet Works](./tools_and_resources/how_the_internet_works_intro.md)
 
-This is your introduction to programming through the Javascript programming language. Here you will learn foundational concepts and structures that will get you thinking in code.
+
+## Unit One: Javascript Foundations
 
 1. [JavaScript Intro](./javascript/intro.md)
 2. [JavaScript Conditionals](./javascript/conditionals.md)
@@ -26,57 +28,31 @@ This is your introduction to programming through the Javascript programming lang
 
 ## Unit Two: Intro to React
 
-React is a powerful Javascript library used to build more complicated web applications.
-
 1. [React Intro](./react/intro.md/)
 2. [React Components](./react/nested-components.md)
 3. [Create React App](./react/create-react-app.md)
 4. [React State](./react/state.md/)
 
-#### Additional Topics:
-
-- [Intro to How the Internet Works](./tools_and_resources/how_the_internet_works_intro.md)
-
 ## Unit Three: Intermediate React
-
-Here we explore more of what React offers and do our first multi-day project.
 
 1. [React Props](./react/props.md/)
 6. [React State and Props](./react/state-and-props.md/)
 7. [React Forms and Functional Props](./react/forms.md/)
 
-**Additional Topics**:
-
-- [Portfolio Resources](./tools_and_resources/portfolio.md)
-- [Smart and Dumb Components](./react/smart-and-dumb-components.md)
-- [Testing Props with Jest](./react/testing-props-with-jest.md)
-- [React Component Lifecycle](./react/component-lifecycle.md)
-
 ## Unit Four: Ruby
 
-Ruby is a backend, object-oriented programming language. Here you will learn the fundamentals of Ruby and expand on testing.
-
-1. [Ruby Intro](./ruby/intro.md)
-2. [Ruby Conditionals](./ruby/conditionals.md)
+1. [Ruby Intro/Conditionals](./ruby/intro_and_conditionals.md)
 2. [Ruby Methods](./ruby/methods.md)
-2. [Ruby Loops](./ruby/loops.md)
 2. [Ruby Hashes](./ruby/hashes.md)
+2. [Ruby Blocks](./ruby/blocks.md)
 3. [Ruby Classes and Objects](./ruby/classes_objects.md)
 4. [Ruby Inheritance](./ruby/inheritance.md)
 6. [Ruby Testing with RSPEC](./ruby/rspec.md)
 1. [Challenge: Text Based Story Game](./ruby/textbased_story.md)
 
-**Additional Topics**:
-- [Ruby Test Driven Development](./ruby/tdd.md)
-- [Ruby Behavior Driven Development](./ruby/bdd.md)
-
-
 ## Unit Five: Ruby on Rails Models and Postgres
 
-Rails is full stack framework built into the Ruby programming language. Here you will be introduced to Rails concepts and persistence storage with Postgres.
-
 1. [Intro to Postgres](./sql/intro_postgres.md)
-1. [Postgres Joins](./sql/08rails_sql_joins.md)
 1. [Intro to Rails](./Rails-C&V/rails_intro.md)
 1. [Rails Model: Intro to Active Record ](./Rails-M/01intro_active_record.md)
 1. [Foreign Keys and Relations](./sql/10rails_foreign_keys_and_relations.md)
@@ -86,12 +62,6 @@ Rails is full stack framework built into the Ruby programming language. Here you
 1. [Rails Params](./Rails-C&V/03rails_params.md)
 1. [Challenge: Active Record Tasks ](./Rails-M/03rails_active_record_tasks.md)
 1. [Challenge: Active Record Task List](./Rails-M/04rails_active_record_tasklist.md)
-
-### Bonus Material
-
-- [RESTful Web Application Framework](./Rails-C&V/00rails_http_intro.md)
-- [SQL CRUD (SQL in the terminal)](./sql/09rails_sql_terminal.md)
-- [Rails Cookies](./Rails-C&V/04rails_cookies.md)
 
 ## Unit Six: Full Stack Ruby on Rails
 
