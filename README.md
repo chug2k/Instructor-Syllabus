@@ -3,6 +3,10 @@
 ## Resources
 - [Intro to How the Internet Works](./tools_and_resources/how_the_internet_works_intro.md)
 
+## White Boarding Exercises
+- [Questions for JavaScript](./whiteboard/techQuestions.js)
+- [Questions for Ruby](./whiteboard/tech_questions.rb)
+- [Other Questions](./whiteboard/tech-questions.md)
 
 ## Unit One: Javascript Foundations
 
