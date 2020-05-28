@@ -13,76 +13,66 @@
 ## Vocabulary
 - migrations
 
-## Useful Commands
-- $ rails db:migrate
+Migrations change the shape of the database. Even the initial creation of a table is making a change to the shape of the database. We never directly modify the database shape or the schema.
 
-## Additional Resources
-- <a href="https://edgeguides.rubyonrails.org/active_record_migrations.html" target="blank">Rails documentation on Migrations</a>
-- <a href="https://edgeguides.rubyonrails.org/active_record_migrations.html#using-the-change-method" target="blank">Change Method</a>
+You would want to use a migration when:
+- You need to add a column
+- You need to change the data type of a column
+- You forgot a column
+- You need to delete a column
+- You need to rename a column
 
-## Set Up
+Migrations act as a history of your project. They are like git commits. If you are at the very beginning of your project and you realize you made a mistake in your database, you can delete it and start over. On a fresh app there is the option to burn it down. But once you are adding data to your app, you don't get to delete and start over. You have to use migrations. So here is an opportunity to practice.
 
-#### Creating a new Rails app:
-```
-rails new user -d postgresql -T
-cd user
-rails db:create
-rails server
-```
+A perfect example that you will probably all use migrations will happen tomorrow. We are going to talk about relationships between tables and to define relationships between tables we have to use something called a foreign key. It is very likely that at some point you will forget to add a foreign key and will need to add it later.
 
-In a browser navigate to:
-`http://localhost:3000`
-or
-`127.0.0.1:3000`
+Migrations are just a class - should be named descriptively
 
-## Naming Conventions
-- Migration names are PascalCased or snake_cased
-- Migration names start with an action that describes the purpose of the migration (i.e. create, add, remove, etc)
-- The migration name ends with the name of the table and should be plural (add_name_to_users)
+Migration names are PascalCased or snake_cased
+Migration names start with an action that describes the purpose of the migration (i.e. create, add, remove, etc)
+The migration name ends with the name of the table and should be plural (add_name_to_users)
 
-## Generating a Migration
-In this example, we'll be adding first_name and last_name columns to a User table.
-
-```
 $ rails generate migration add_name_to_users
-```
 
-A new file is added to the migrate directory with the starter code for the migration.
+def change
 
-**db/migrate**
-```ruby
-class AddNameToUsers < ActiveRecord::Migration[6.0]
-  def change
-  end
-end
-```
+add_column
+add_column :table_name, :column_name, :data_type
 
-## Add New Columns
-Here's what our migration looks like:
+remove_column
+remove_column :table_name, :column_name
 
-```ruby
-class AddNameToUsers < ActiveRecord::Migration[6.0]
-  def change
-    #add_column :table_name, :new_column, :new_column_data_type
-    add_column :users, :first_name, :string
-    add_column :users, :last_name, :string
-  end
-end
-```
+change a column data type
+change_column :table_name, :column_name, :data_type
+
+rename a column
+rename_column :table_name, :column_name, :data_type
+
 $ rails db:migrate
 
-The database schema is now updated!
 
 ## Challenges
-- Create a new rails application called favorite_movies
-- Create the database
-- Generate a model with a title attribute and a genre attribute
-- Add five entries to the database in Rails console
-- Create a migration to add a new column to the database called movie_length
-- Update the values of the existing attributes to include a movie_length value
+```bash
+# Create a new rails application called favorite_movies
+$ rails new favorite_movies -d postgresql -T
 
-[Go to next lesson: Rails Active Record Associations](./active_record_associations.md)
+# Create the database
+$ rails db:create
 
-[Back to Rails Active Record Introduction](./active_record_intro.md)
+# Generate a model with a title attribute and a genre attribute
+$ rails generate model Movies title:string genre:string
 
-[Back to Syllabus](../README.md)
+# Add five entries to the database in Rails console
+> Movie.create title: "Austin Powers", genre: "Comedy"
+
+# Create a migration to add a new column to the database called movie_length
+$ rails generate migration add_length_movies
+
+def change
+  add_column :movie, :movie_length, :string
+end
+
+# Update the values of the existing attributes to include a movie_length value
+> austin = Movie.first
+> austin.movie_length = "2 hours"
+```
