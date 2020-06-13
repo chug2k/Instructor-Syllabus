@@ -1,30 +1,19 @@
 # Rails Forms
 
-## Overview
+## Overview (from syllabus)
 - Adding CRUD operations for the user to see, add, edit, and delete information from the database
 - Building a `get` request for a method called `new` and a `post` request for method called `create`
 
-## Learning Objectives
+## Learning Objectives (from syllabus)
 - Creating a form that will accept information from the user
 - Creating a submit process that will add information to the server
-- Preforming CRUD actions in a Rails application
+- Performing CRUD actions in a Rails application
 
-## Vocabulary
+## Vocabulary (from syllabus)
 - CRUD
 - RESTful routes
 
-## Set Up
-
-#### Creating a new Rails app:
-```
-$ rails new myapp -d postgresql -T
-$ cd myapp
-$ rails db:create
-$ rails server
-```
-
-In a browser navigate to:
-`http://localhost:3000`
+### Lecture
 
 
 ## Creating a Form

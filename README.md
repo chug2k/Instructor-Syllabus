@@ -64,15 +64,15 @@
 1. [ActiveRecord Query Syntax](./Rails-M/03_rails_active_record_query_syntax.md)
 1. [Rails Routes, Controllers and Views](./Rails-C&V/01rails_routes_controllers_views.md)
 1. [Rails Params](./Rails-C&V/03rails_params.md)
+1. [Active Record Validations](./rails_model/validations.md)
 1. [Challenge: Active Record Tasks ](./Rails-M/03rails_active_record_tasks.md)
 1. [Challenge: Active Record Task List](./Rails-M/04rails_active_record_tasklist.md)
 
 ## Unit Six: Full Stack Ruby on Rails
 
 1. [Rails Restful Routes and CRUD Actions](./Rails-C&V/rails_rest_crud.md)
-1. [Rails Forms](./Rails-C&V/rails_forms.md)
+1. [Rails Forms](./rails_api/forms.md)
 1. [Strong Params](./Rails-M/08rails_strong_parameters.md)
-1. [Active Record Validations](./Rails-M/07rails_activerecord_validations.md)
 1. [Postman](./tools_and_resources/postman.md)
 1. [Rails Resource Generator: Read Operations](./Rails-M/05rails_generate_resource.md)
 1. [Rails Resource Generator Continued: Create and Delete Operations](./Rails-M/06rails_generate_resource_cont.md)
