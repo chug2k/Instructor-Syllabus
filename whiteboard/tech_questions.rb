@@ -1,1 +1,0 @@
-# White Board Exercises: Ruby
