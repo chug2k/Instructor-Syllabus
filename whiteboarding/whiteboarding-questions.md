@@ -63,22 +63,75 @@ secretSociety = (array) => {
   // note that .sort() will treat lower and uppercase letters differently
 }
 console.log(secretSociety(["rachael", "sarah", "andee"]))
+--> "ars"
+--> "ARS" (stretch)
 ```
 ### Week 4: Ruby
 
+**Student 1:**  
+TECH QUESTION: Compare and contrast equality operators in JavaScript and Ruby. (Optional stretch: Do all dynamically-typed languages support type coersion?)
+
+PROMPT: As a developer, you are given a string containing multiple words. Create a function that capitalizes all the words in the string. (Can be done in JS or Ruby)
+
+Instructor's Notes:
+```javascript
+const capitalizer = (string) => {
+  // split string, map
+  // get first value with charAt or [0] and apply toUpperCase
+  // add the rest of the word with substring or splice
+  // join
+}
+console.log(capitalizer("hey there learn student"))
+--> 'Hey There Learn Student'
+```
+```ruby
+def capitalizer string
+  # split, map
+  # capitalize method
+  # join
+end
+puts capitalizer 'hey there learn student'
+--> 'Hey There Learn Student'
+```
+
+**Student 2:**  
+TECH QUESTION: Compare and contrast floats in JavaScript and Ruby. (Optional stretch: What do you get when you divide 0/0 in each language?)
+
+PROMPT: As a developer, you are given a multi digit number. Write a function that takes the single number and returns an array with a single integer at each index. (Can be done in JavaScript or Ruby)
+
+Instructor's Notes:
+```javascript
+console.log(0/0)
+--> NaN
+
+// the main challenge is tracking data types and knowing which methods can be applied to which data types
+const splitNum = (number) => {
+  return number.toString().split("").map(value => {
+    return parseInt(value)
+  })
+}
+
+
+--> [3, 4, 8, 3, 2]
+```
+```ruby
+p 0/0
+--> ZeroDivisionError
+p 0.0/0
+--> NaN
+
+def split_nums number
+  num.to_s.split("").map do |value|
+    value.to_i
+  end
+end
+puts split_nums 34567
+--> [3, 4, 5, 6, 7]
+```
 
 
 
 
-
-
-
-PROMPT: Write a function that turns a multi digit number into an array with each integer at one index of the array
-
-// 34832 --> ["3", "4", "8", "3", "2"]
-
-// Stretch option: multiply all the numbers by 2 and turn it back into a number
-// ["3", "4", "8", "3", "2"] -> 681664
 
 
 
