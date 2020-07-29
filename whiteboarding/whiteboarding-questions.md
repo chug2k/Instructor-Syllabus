@@ -3,7 +3,7 @@
 We introduce white boarding during the second week of the class.
 
 - [ Intro to White Boarding ](./intro-to-whiteboarding.md#white-boarding)
-- [ Week 2: JavaScript ](#week-2:-intro-to-javascript)
+- [ Week 2: JavaScript ](#week-2-intro-to-javascript)
 - [ Week 3: JavaScript and React ](#javascript-and-react)
 - [ Week 4: Ruby ](#ruby)
 - [ Week 5: SQL and Rails ](#sql-and-rails)
