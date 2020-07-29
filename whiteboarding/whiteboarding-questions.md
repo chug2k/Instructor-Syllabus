@@ -129,20 +129,39 @@ puts split_nums 34567
 --> [3, 4, 5, 6, 7]
 ```
 
+### Week 5: SQL and Rails
 
+**Student 1:**  
+TECH QUESTION: What is an aggregate function in SQL? (Optional stretch: What are some examples of aggregate functions and why would you use one?)
 
+PROMPT:  
+(Part 1) As a client, I need a database to keep track of the giant cookies I sell online. As a developer creating the database, what columns will you include in the cookie table? (Open to interpretation - just an exercise in thinking through a problem.)
 
+(Part 2) Write a SQL query that will return the type and price of the most expensive cookie in the database.
 
+Instructor's Notes:  
+Aggregate functions - SUM, COUNT, MAX, MIN, AVG  
+Possible columns include type of cookie, price, size, cost of materials, calories, delivery date, delivery location, special instructions... The goal is to get them asking questions and doing some creative thinking.
+```sql
+SELECT type of cookie, price
+FROM cookie
+ORDER BY price DESC
+LIMIT 1
+```
 
+**Student 2:**  
+TECH QUESTION: What is a schema? (Optional stretch: How do you update a schema in Rails?)
 
+PROMPT:  
+(Part 1) As I client, I work in the mail room of an office building. I need an app that helps me notify individual offices when they receive mail. As a developer making the Rails application, what would the schema of my Mail table look like? (Open to interpretation - just an exercise in thinking through a problem.)
 
+(Part 2) Write an Active Record statement to be executed in the Rails console that will update the office suite/number of one instance in the Mail table.
 
+Instructor's Notes:   
+Possible columns include office suite/number, addressee, type of mail (letter vs package), date arrived, office contact information, did the mail need to be signed for... The goal is to get them asking questions and doing some creative thinking.
 
-
-### SQL
-If I need a database table for hotel reservations, write out a schema that would give me all the info I need. (Can be open to interpretation - just an exercise in thinking through a problem.)
-
-From that schema, (instructors note: make sure they have num of guests, total cost) write a SQL query that will return cost of the stay per person. List the top 10 most expensive stays/person.
-
-
-SELECT cost, num_of_guests, cost/num_of_guests AS cost_per_person FROM reservation ORDER BY cost_per_person DESC LIMIT 10 (This could be slightly off, but it is the general idea)
+```ruby
+letter = Mail.find <id>
+letter.office_suite = "12C"
+letter.save
+```
