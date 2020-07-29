@@ -2,6 +2,13 @@
 
 We introduce white boarding during the second week of the class.
 
+- [ Intro to White Boarding ](./intro-to-whiteboarding.md#white-boarding)
+- [ Week 2: JavaScript ](#intro-to-javascript)
+- [ Week 3: JavaScript and React ](#javascript-and-react)
+- [ Week 4: Ruby ](#ruby)
+- [ Week 5: SQL and Rails ](#sql-and-rails)
+- [ Great Resource ](https://www.interviewcake.com/coding-interview-tips) for technical interviews
+
 ### Week 2: Intro to JavaScript
 
 **Student 1**  
@@ -153,7 +160,7 @@ LIMIT 1
 TECH QUESTION: What is a schema? (Optional stretch: How do you update a schema in Rails?)
 
 PROMPT:  
-(Part 1) As I client, I work in the mail room of an office building. I need an app that helps me notify individual offices when they receive mail. As a developer making the Rails application, what would the schema of my Mail table look like? (Open to interpretation - just an exercise in thinking through a problem.)
+(Part 1) As I client, I work in the mail room of an office building. I need an app that helps me notify individual offices when they receive mail. As a developer making the Rails application, what would the schema of my Mail table look like? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
 
 (Part 2) Write an Active Record statement to be executed in the Rails console that will update the office suite/number of one instance in the Mail table.
 
