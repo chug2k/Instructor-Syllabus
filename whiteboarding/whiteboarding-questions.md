@@ -172,3 +172,18 @@ letter = Mail.find <id>
 letter.office_suite = "12C"
 letter.save
 ```
+
+### Week 6: Full-stack Rails
+
+**Student 1:**  
+TECH QUESTION: What is the difference between false and nil in Ruby? (Optional stretch: How is a symbol different from a variable?)
+
+PROMPT: Create a Ruby class for a person that initializes with a name and a height. Create a getter method that returns a sentence containing the person's information.
+
+Instructor's Notes:
+False indicates a Boolean datatype, while Nil is not a data type and equal to nothing else. In Ruby string is mutable but a Symbol is immutable.
+
+**Student 2:**  
+TECH QUESTION: What does it mean when we talk about Rails "magic"? (Optional stretch: What are some examples you have used in your projects?)
+
+PROMPT: Create a function that takes in an array of numbers and returns the largest number.
