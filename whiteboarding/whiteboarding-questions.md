@@ -7,6 +7,8 @@ We introduce white boarding during the second week of the class.
 - [ Week 3: JavaScript and React ](#week-3-javascript-and-react)
 - [ Week 4: Ruby ](#week-4-ruby)
 - [ Week 5: SQL and Rails ](#week-5-sql-and-rails)
+- [ Week 6: Full-stack Rails ](#week-6-full-stack-rails)
+- [ Week 7: PD Week Technical Interviews ](./pd-week-tech-interviews/.d#pd-week-technical-interviews)
 - [ Great Resource ](https://www.interviewcake.com/coding-interview-tips) for technical interviews
 
 ### Week 2: Intro to JavaScript
@@ -187,3 +189,69 @@ False indicates a Boolean datatype, while Nil is not a data type and equal to no
 TECH QUESTION: What does it mean when we talk about Rails "magic"? (Optional stretch: What are some examples you have used in your projects?)
 
 PROMPT: Create a function that takes in an array of numbers and returns the largest number.
+
+
+### Week 8: Cat Tinder
+
+**Student 1:**  
+TECH QUESTION:
+1) Tell me about a project you are working on.
+2) What makes you a good teammate?
+3) What does the term asynchronous mean in programming? (Optional stretch: What is a Promise? What are the possible states of a Promise?)
+
+
+PROMPT: What is this code doing?
+```javascript
+markTask = (e) => {
+    let task = this.state.batch.tasks.find(v => v.id === e.target.id)
+    markTaskDone(task)
+    this.props.completeTask(task)
+}
+```
+
+
+Instructor's Notes: The markTask function is finding one task from the state object by an id that is coming from an input of some kind, then passing task to a local method and a method in the parent component.   
+
+**Student 2:**  
+TECH QUESTION:
+1) What excites you about programming?
+2) What are you good at?
+3) What is a recursive function? (Optional stretch: How would you avoid an infinite loop in a recursive function?)
+
+PROMPT: What is this code doing?
+```javascript
+cards = (array) => {
+  array.sort(() => Math.random() - 0.5)
+  this.setState({ flashcards: array })
+}
+```
+
+Instructor's Notes: The cards function is shuffling an array based on the random number being positive or negative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```javascript
+
+
+cards = (array) => {
+  array.sort(() => Math.random() - 0.5)
+  this.setState({ flashcards: array })
+}
+
+
+
+```
