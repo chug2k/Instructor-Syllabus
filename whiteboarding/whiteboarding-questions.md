@@ -230,28 +230,46 @@ Instructor's Notes: The cards function is shuffling an array based on the random
 
 
 
+### Week 9: Apartment App
 
+**Student 1:**  
+TECH QUESTION:
+1) What tools and techniques do you use when debugging JavaScript code?
+2) What is the difference between a function utilizing the fat arrow and using the JavaScript keyword function?
+3) What is “hoisting” in JavaScript?
 
+PROMPT: Write a function that takes in a string as an argument and checks if it’s a palindrome.
 
-
-
-
-
-
-
-
-
-
-
-
+Instructor's Notes:
 ```javascript
-
-
-cards = (array) => {
-  array.sort(() => Math.random() - 0.5)
-  this.setState({ flashcards: array })
+const palindrome = (str) => {
+ str = str.toLowerCase()
+ if(str === str.split('').reverse().join('')){
+  return `${str} is a palindrome!`
+ } else {
+  return `${str} is NOT a palindrome! `
+ }
 }
+```
 
+**Student 2:**  
+TECH QUESTION:
+1) What’s the difference between a variable that is: null, undefined or undeclared in JavaScript?
+2) What does CORS stand for and what issue does it address?
+3) What are Promises in JavaScript?
 
+PROMPT: Write a function that takes a string as an argument and returns the number of vowels contained within that string.
 
+Instructor's Notes:
+```javascript
+const vowelCount = (str) => {
+let count = 0
+const vowels = ['a', 'e', 'i', 'o', 'u']
+for(let char of str.toLowerCase()) {
+	if(vowels.includes(char) {
+	count++
+		}
+	}
+return count
+}
 ```
