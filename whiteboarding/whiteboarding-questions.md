@@ -14,7 +14,10 @@ We introduce white boarding during the second week of the class.
 ### Week 2: Intro to JavaScript
 
 **Student 1**  
-TECH QUESTION: What is difference between value and index in an array? (Optional stretch: What is iteration?)
+TECH QUESTION: 
+1) What excites you about coding?
+2) What is the difference between an array's value and index? As a developer, why is it important to distinguish between the two?
+2) What is iteration?
 
 CODE PROMPT: As a developer, you are given an array of mixed data. Create a function that takes the array and the name of a data type and returns an array with only the the values that match the given data type.
 
@@ -30,7 +33,10 @@ console.log(filterArray(testArray, "string"))
 ```
 
 **Student 2:**  
-TECH QUESTION: What is a higher order function? (Optional stretch: Can you give me three examples of higher order functions?)
+TECH QUESTION: 
+1) What drew you to learn development?
+2) What is a higher-order function? Can you give me three examples of higher-order functions?
+3) How is a higher-order function different from an arrow function?
 
 CODE PROMPT: As a developer, you are given an array of english words. Create a function that returns an array with all the words in uppercase letters.
 
