@@ -14,7 +14,7 @@ We introduce white boarding during the second week of the class.
 ### Week 2: Intro to JavaScript
 
 **Student 1**  
-TECH QUESTION: 
+TECH QUESTIONS: 
 1) What excites you about coding?
 2) What is the difference between an array's value and index? As a developer, why is it important to distinguish between the two?
 2) What is iteration?
@@ -33,7 +33,7 @@ console.log(filterArray(testArray, "string"))
 ```
 
 **Student 2:**  
-TECH QUESTION: 
+TECH QUESTIONS: 
 1) What drew you to learn development?
 2) What is a higher-order function? Can you give me three examples of higher-order functions?
 3) How is a higher-order function different from an arrow function?
@@ -54,19 +54,25 @@ console.log(makeEmCaps(arrayOfWOrds))
 ### Week 3: JavaScript and React
 
 **Student 1:**  
-TECH QUESTION: What is git? (Optional stretch: What is the difference between git and GitHub?)
+TECH QUESTIONS: 
+1) What are your strengths as a developer?
+2) What is the difference between git and GitHub?
+3) What is a branch?
 
-PROMPT: You've got 5 chickens (2 legs), 6 cows (4 legs) and 3 pigs (4 legs) on your farm. Create a function that returns the total number of legs on your farm.
+PROMPT: You've got 5 chickens (2 legs), 6 goats (4 legs) and 3 horses (4 legs) on your farm. Create a function that returns the total number of legs on your farm.
 
 Instructor's Notes:
 ```javascript
-legChecker = (chicks, cows, pigs) => chicks*2 + cows*4 + pigs*4
+const totalLegs = (chicks, goats, horses) => chicks*2 + goats*4 + horses*4
 // Most people will overthink this one!
-console.log(legChecker(5, 6, 3))
+console.log(totalLegs(5, 6, 3))
 ```
 
 **Student 2:**  
-TECH QUESTION: What is yarn? (Optional stretch: What file will always be updated when you run yarn?)
+TECH QUESTIONS: 
+1) What are your weaknesses as a developer?
+2) 
+3) 
 
 PROMPT: A group of friends have decided to start a secret society. The name will be the first letter of each of their names, sorted in alphabetical order. Create a function that takes in an array of names and returns the name of the secret society. (Optional stretch: The secret society's name should be entirely uppercased.)
 
@@ -84,7 +90,10 @@ console.log(secretSociety(["rachael", "sarah", "andee"]))
 ### Week 4: Ruby
 
 **Student 1:**  
-TECH QUESTION: Compare and contrast equality operators in JavaScript and Ruby. (Optional stretch: Do all dynamically-typed languages support type coersion?)
+TECH QUESTIONS: 
+1) What text editor do you use and why?
+2) Compare and contrast equality operators in JavaScript and Ruby.
+3) Do all dynamically-typed languages support type coersion?
 
 PROMPT: As a developer, you are given a string containing multiple words. Create a function that capitalizes all the words in the string. (Can be done in JS or Ruby)
 
@@ -110,7 +119,9 @@ puts capitalizer 'hey there learn student'
 ```
 
 **Student 2:**  
-TECH QUESTION: Compare and contrast floats in JavaScript and Ruby. (Optional stretch: What do you get when you divide 0/0 in each language?)
+TECH QUESTIONS:
+1) What operating system do you use and why?
+2) Compare and contrast floats in JavaScript and Ruby. (Optional stretch: What do you get when you divide 0/0 in each language?)
 
 PROMPT: As a developer, you are given a multi digit number. Write a function that takes the single number and returns an array with a single integer at each index. (Can be done in JavaScript or Ruby)
 
@@ -147,7 +158,9 @@ puts split_nums 34567
 ### Week 5: SQL and Rails
 
 **Student 1:**  
-TECH QUESTION: What is an aggregate function in SQL? (Optional stretch: What are some examples of aggregate functions and why would you use one?)
+TECH QUESTION: 
+1) What would you consider a "good" commit message?
+What is an aggregate function in SQL? (Optional stretch: What are some examples of aggregate functions and why would you use one?)
 
 PROMPT:  
 (Part 1) As a client, I need a database to keep track of the giant cookies I sell online. As a developer creating the database, what columns will you include in the cookie table? (Open to interpretation - just an exercise in thinking through a problem.)
