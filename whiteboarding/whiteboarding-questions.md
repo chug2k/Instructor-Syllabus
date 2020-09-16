@@ -59,7 +59,7 @@ TECH QUESTIONS:
 2) What is the difference between git and GitHub?
 3) What is a branch?
 
-PROMPT: You've got 5 chickens (2 legs), 6 goats (4 legs) and 3 horses (4 legs) on your farm. Create a function that returns the total number of legs on your farm.
+PROMPT: As a developer you are tasked with calculating some information for a farmer. The farmer has chickens (2 legs), goats (4 legs) and horses (4 legs). Create a function that returns the total number of legs on the farm.
 
 Instructor's Notes:
 ```javascript
