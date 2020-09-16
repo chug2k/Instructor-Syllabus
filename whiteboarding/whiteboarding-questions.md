@@ -71,12 +71,13 @@ console.log(totalLegs(5, 6, 3))
 **Student 2:**  
 TECH QUESTIONS: 
 1) What are your weaknesses as a developer?
-2) 
-3) 
+2) What is the difference between null, undefined, false, NaN?
+3) Compare and contrast arrays and objects.
 
 PROMPT: A group of friends have decided to start a secret society. The name will be the first letter of each of their names, sorted in alphabetical order. Create a function that takes in an array of names and returns the name of the secret society. (Optional stretch: The secret society's name should be entirely uppercased.)
 
 Instructor's Notes:
+- Null, undefined, false, NaN are all falsey values, NaN is of type "number"
 ```javascript
 secretSociety = (array) => {
   // can pass an array or individual names
