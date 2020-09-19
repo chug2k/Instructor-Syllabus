@@ -2,6 +2,7 @@
 
 ## Resources
 - [Intro to How the Internet Works](./tools_and_resources/how_the_internet_works_intro.md)
+- [ Weekly Retros ](./class-discussion/retros.md)
 
 ## White Boarding
 - [ Intro to White Boarding ](./whiteboarding/intro-to-whiteboarding.md)
