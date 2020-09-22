@@ -123,8 +123,9 @@ puts capitalizer 'hey there learn student'
 TECH QUESTIONS:
 1) What operating system do you use and why?
 2) Compare and contrast floats in JavaScript and Ruby. (Optional stretch: What do you get when you divide 0/0 in each language?)
+3) What is the difference between an function and a method? Does the distinction matter?
 
-PROMPT: As a developer, you are given a multi digit number. Write a function that takes the single number and returns an array with a single integer at each index. (Can be done in JavaScript or Ruby)
+PROMPT: As a developer, you are given a multi digit number. Write a function that takes the number and returns an array with a single integer at each index. (Can be done in JavaScript or Ruby)
 
 Instructor's Notes:
 ```javascript
