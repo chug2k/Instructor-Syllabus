@@ -3,13 +3,13 @@
 ## Resources
 - [Intro to How the Internet Works](./tools_and_resources/how_the_internet_works_intro.md)
 - [ Weekly Retros ](./class-discussion/retros.md)
+- [ Zoom Rooms ](./tools_and_resources/zoom-rooms.md)
 
 ## White Boarding
 - [ Intro to White Boarding ](./whiteboarding/intro-to-whiteboarding.md)
 - [ Weekly White Boarding Exercises ](./whiteboarding/whiteboarding-questions.md)
 
 ## Unit One: Javascript Foundations
-
 1. [JavaScript Intro](./javascript/intro.md)
 2. [JavaScript Conditionals](./javascript/conditionals.md)
 3. [JavaScript Arrays](./javascript/arrays.md)

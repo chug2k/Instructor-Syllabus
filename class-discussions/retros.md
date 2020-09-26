@@ -1,6 +1,6 @@
 # Friday Retros
 
-Every Friday we take 30 minutes to reflect on the week. At the beginning of the cohort the retros are more self-reflective and an opportunity to look for red-flags and gain introspective on the group personality of the class. Retros are typically open discussion lead by one of the instructors.
+Every Friday we take 30 minutes to reflect on the events of the week. At the beginning of the cohort the retros are more self-reflective and an opportunity to look for red-flags and gain introspective on the group personality of the class. Retros are typically open discussion lead by one of the instructors.
 
 
 Here is a list of possible retro discussion prompts. Retros can be molded to suit the needs of the instruction team. Some classes will need more prompts than others.
@@ -22,5 +22,8 @@ Topic: React Group Projects
 - What did you do well?
 
 ### Week 4
+Topic: Becoming a Polyglot Developer
+- Pros and cons of knowing multiple programming languages
+
 ### Week 5
 ### Week 6
