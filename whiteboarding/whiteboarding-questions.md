@@ -161,16 +161,16 @@ puts split_nums 34567
 
 **Student 1:**  
 TECH QUESTION: 
-1) What would you consider a "good" commit message?
-What is an aggregate function in SQL? (Optional stretch: What are some examples of aggregate functions and why would you use one?)
+1) When working in a group, what role do you find yourself naturally gravitate towards?
+2) What is a relational database?
+3) What is an aggregate function in SQL?
 
 PROMPT:  
-(Part 1) As a client, I need a database to keep track of the giant cookies I sell online. As a developer creating the database, what columns will you include in the cookie table? (Open to interpretation - just an exercise in thinking through a problem.)
+(Part 1) As a developer, you have been tasked with creating a database for your client who sells giant cookies online. What columns would you recommend to your client to have in the cookie table? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
 
 (Part 2) Write a SQL query that will return the type and price of the most expensive cookie in the database.
 
 Instructor's Notes:  
-Aggregate functions - SUM, COUNT, MAX, MIN, AVG  
 Possible columns include type of cookie, price, size, cost of materials, calories, delivery date, delivery location, special instructions... The goal is to get them asking questions and doing some creative thinking.
 ```sql
 SELECT type of cookie, price
@@ -180,10 +180,13 @@ LIMIT 1
 ```
 
 **Student 2:**  
-TECH QUESTION: What is a schema? (Optional stretch: How do you update a schema in Rails?)
+TECH QUESTION: 
+1) Do you consider your personality more outgoing or more reserved?
+2) What is a schema?
+3) What is the purpose of an ORM?
 
 PROMPT:  
-(Part 1) As I client, I work in the mail room of an office building. I need an app that helps me notify individual offices when they receive mail. As a developer making the Rails application, what would the schema of my Mail table look like? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
+(Part 1) As a developer, you have been tasked with creating a database for your client who works in the mail room of a large office building and needs an app to notify people when they receive mail. What columns would you recommend to your client to have in the mail table? (Open to interpretation - just an exercise in thinking through a problem. Optional stretch: What data type would each column have?)
 
 (Part 2) Write an Active Record statement to be executed in the Rails console that will update the office suite/number of one instance in the Mail table.
 
