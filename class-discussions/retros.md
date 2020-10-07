@@ -26,4 +26,10 @@ Topic: Becoming a Polyglot Developer
 - Pros and cons of knowing multiple programming languages
 
 ### Week 5
+Topic: Backend Developments
+- What is it like to work with data you can't see?
+
 ### Week 6
+Topic: Rails Full-stack and API
+- Do you prefer frontend or backend development?
+- Half way through the course

@@ -2,7 +2,7 @@
 
 Preset breakout rooms can be added to the reoccurring Zoom meeting. Rooms can be custom names. Below are some fun options.
 
-California National Parks
+**California National Parks**
 - Yosemite
 - Joshua Tree
 - Redwood
@@ -14,7 +14,7 @@ California National Parks
 - Point Reyes
 - Death Valley
 
-Planets
+**Planets**
 - Mercury
 - Venus
 - Earth
@@ -25,3 +25,15 @@ Planets
 - Pluto
 - Moon
 - Sun
+
+**Famous Landmarks**
+- Eiffel Tower
+- Great Wall of China
+- Leaning Tower of Pisa
+- Pyramid of Giza
+- Big Ben
+- Statue of Liberty
+- Taj Mahal
+- Machu Picchu
+- Easter Island Moai
+- Notre Dame

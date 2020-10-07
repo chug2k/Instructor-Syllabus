@@ -2,7 +2,7 @@
 
 ## Resources
 - [Intro to How the Internet Works](./tools_and_resources/how_the_internet_works_intro.md)
-- [ Weekly Retros ](./class-discussion/retros.md)
+- [ Weekly Retros ](./class-discussions/retros.md)
 - [ Zoom Rooms ](./tools_and_resources/zoom-rooms.md)
 
 ## White Boarding
