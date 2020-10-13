@@ -5,9 +5,10 @@
 - [ Weekly Retros ](./class-discussions/retros.md)
 - [ Zoom Rooms ](./tools_and_resources/zoom-rooms.md)
 
-## White Boarding
-- [ Intro to White Boarding ](./whiteboarding/intro-to-whiteboarding.md)
-- [ Weekly White Boarding Exercises ](./whiteboarding/whiteboarding-questions.md)
+## Technical Interviews
+- [ Intro to White Boarding ](./tech-interviews/intro-to-whiteboarding.md)
+- [ Weekly White Boarding Exercises ](./tech-interviews/whiteboarding-questions.md)
+- [ PD Week Interview Questions ](./tech-interviews/pd-week-tech-interviews.md)
 
 ## Unit One: Javascript Foundations
 1. [JavaScript Intro](./javascript/intro.md)

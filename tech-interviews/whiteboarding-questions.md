@@ -54,6 +54,8 @@ console.log(makeEmCaps(arrayOfWOrds))
 // Output: ["I", "AM", "SO", "EXCITED"]
 ```
 
+[ Back to the Top ](#white-board-exercises)
+
 ### Week 3: JavaScript and React
 
 **Student 1:**  
@@ -94,6 +96,9 @@ console.log(secretSociety(["rachael", "sarah", "andee"]))
 --> "ars"
 --> "ARS" (stretch)
 ```
+
+[ Back to the Top ](#white-board-exercises)
+
 ### Week 4: Ruby
 
 **Student 1:**  
@@ -165,6 +170,8 @@ puts split_nums 34567
 --> [3, 4, 5, 6, 7]
 ```
 
+[ Back to the Top ](#white-board-exercises)
+
 ### Week 5: SQL and Rails
 
 **Student 1:**  
@@ -207,6 +214,8 @@ letter.office_suite = "12C"
 letter.save
 ```
 
+[ Back to the Top ](#white-board-exercises)
+
 ### Week 6: Full-stack Rails
 
 **Student 1:**  
@@ -233,7 +242,7 @@ const palindrome = (string) => {
 TECH QUESTION:  
 1) What do you value in a mentor?  
 2) What is a stack overflow?  
-3) What would you get if you add the string "hello" to the number 3?
+3) What would you get if you add the string "hello" to the number 3? (In JavaScript vs Ruby?)
 
 PROMPT:  
 Create a function that takes in a string with multiple words and returns a string with the letters in each word reversed. The words should remain in the same order. (Can be done in JavaScript or Ruby)
@@ -269,35 +278,38 @@ p reverser 'oh hey there you'
 --> "ho yeh ereht uoy"
 ```
 
+[ Back to the Top ](#white-board-exercises)
+
 ### Week 8: Cat Tinder
 
-**Student 1:**  
-TECH QUESTION:
-1) Tell me about a hobby.
-2)
-3) What does the term asynchronous mean in programming? (Optional stretch:
-4) What is a Promise? What are the possible states of a Promise?
+**Student 1:**    
+TECH QUESTION:  
+1) Tell me about something you enjoy doing outside of coding.   
+2) What does the term asynchronous mean in programming?  
+3) What is a Promise? What are the possible states of a Promise?
 
 
-PROMPT: What is this code doing?
+PROMPT:  
+What is this code doing?
 ```javascript
 markTask = (e) => {
-    let task = this.state.batch.tasks.find(v => v.id === e.target.id)
-    markTaskDone(task)
-    this.props.completeTask(task)
+  let task = this.state.batch.tasks.find(v => v.id === e.target.id)
+  markTaskDone(task)
+  this.props.completeTask(task)
 }
 ```
 
-
-Instructor's Notes: The markTask function is finding one task from the state object by an id that is coming from an input of some kind, then passing task to a local method and a method in the parent component.   
+INSTRUCTOR'S NOTES:  
+The markTask function is finding one task from the state object by an id that is coming from an input of some kind, then passing task to a local method and a method in the parent component.   
 
 **Student 2:**  
-TECH QUESTION:
-1) Tell me about a project you are working on.
-2) What does CORS stand for and what issue does it address?
-3) What is a recursive function? (Optional stretch: How would you avoid an infinite loop in a recursive function?)
+TECH QUESTION:  
+1) Tell me about a project you are working on.    
+2) What is the Virtual DOM?
+3) What is a recursive function? How would you avoid an infinite loop in a recursive function?
 
-PROMPT: What is this code doing?
+PROMPT:   
+What is this code doing?
 ```javascript
 cards = (array) => {
   array.sort(() => Math.random() - 0.5)
@@ -305,24 +317,7 @@ cards = (array) => {
 }
 ```
 
-Instructor's Notes: The cards function is shuffling an array based on the random number being positive or negative
+INSTRUCTOR'S NOTES:   
+The cards function is shuffling an array based on the random number being positive or negative.
 
-
-
-
-
-PROMPT: Write a function that takes a string as an argument and returns the number of vowels contained within that string.
-
-Instructor's Notes:
-```javascript
-const vowelCount = (str) => {
-let count = 0
-const vowels = ['a', 'e', 'i', 'o', 'u']
-for(let char of str.toLowerCase()) {
-	if(vowels.includes(char) {
-	count++
-		}
-	}
-return count
-}
-```
+[ Back to the Top ](#white-board-exercises)

@@ -49,3 +49,27 @@ Preset breakout rooms can be added to the reoccurring Zoom meeting. Rooms can be
 - SOCi
 - Zeal
 - Notch8
+
+**Types of Cats**
+- Persian
+- Siamese
+- Exotic Shorthair
+- Ragdoll
+- Bengal
+- Sphynx
+- Abyssinian
+- Bombay
+- Himalayan
+- Main Coon
+
+**Rooms in a House**
+- Dining Room
+- Living Room
+- Den
+- Kitchen
+- Hallway
+- Patio
+- Pantry
+- Office
+- Library
+- Family Room
