@@ -8,7 +8,7 @@ We introduce white boarding during the second week of the class.
 - [ Week 4: Ruby ](#week-4-ruby)
 - [ Week 5: SQL and Rails ](#week-5-sql-and-rails)
 - [ Week 6: Full-stack Rails ](#week-6-full-stack-rails)
-- [ Week 7: PD Week Technical Interviews ](./pd-week-tech-interviews/.d#pd-week-technical-interviews)
+- [ Week 7: PD Week Technical Interviews ](./pd-week-tech-interviews/.md#pd-week-technical-interviews)
 - [ Week 8: Cat Tinder ](#week-8-cat-tinder)
 - [ Great Resource ](https://www.interviewcake.com/coding-interview-tips) for technical interviews
 
