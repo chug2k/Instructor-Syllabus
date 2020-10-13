@@ -5,7 +5,7 @@ The students are divided into groups  students and runs through a mock technical
 
 The instructor should take the role of tech lead interviewing a junior developer. The interview should be a a combination of intro/personal questions, technical questions, and coding challenges.
 
-The following are options for questions. Additional questions are available [ here: ](https://docs.google.com/document/d/17ufjuBht0eiyvXWDiNWaTo3nsmLov6eZRI6UAT5d_qk/edit)
+The following are options for questions. Additional questions are available [ here. ](https://docs.google.com/document/d/17ufjuBht0eiyvXWDiNWaTo3nsmLov6eZRI6UAT5d_qk/edit)
 
 It is the goal to ask at least one question that the student doesn't know the answer to.
 
