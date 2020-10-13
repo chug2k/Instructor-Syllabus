@@ -37,3 +37,15 @@ Preset breakout rooms can be added to the reoccurring Zoom meeting. Rooms can be
 - Machu Picchu
 - Easter Island Moai
 - Notre Dame
+
+**San Diego Tech Companies**
+- Qualcomm
+- MindTouch
+- Measurabl
+- Mindgruve
+- Zeeto
+- Q-Centrix
+- Tealium
+- SOCi
+- Zeal
+- Notch8

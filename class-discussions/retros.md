@@ -33,3 +33,4 @@ Topic: Backend Developments
 Topic: Rails Full-stack and API
 - Do you prefer frontend or backend development?
 - Half way through the course
+- When working in an API, we are working really closely with error messages. Have you found your relationships with error messages have changed since you started the course?

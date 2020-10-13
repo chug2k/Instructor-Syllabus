@@ -275,7 +275,8 @@ p reverser 'oh hey there you'
 TECH QUESTION:
 1) Tell me about a hobby.
 2)
-3) What does the term asynchronous mean in programming? (Optional stretch: What is a Promise? What are the possible states of a Promise?)
+3) What does the term asynchronous mean in programming? (Optional stretch:
+4) What is a Promise? What are the possible states of a Promise?
 
 
 PROMPT: What is this code doing?
