@@ -2,6 +2,18 @@
 
 Preset breakout rooms can be added to the reoccurring Zoom meeting. Rooms can be custom names. Below are some fun options.
 
+**Downtown(ish) San Diego Neighborhoods**
+- East Village
+- South Park
+- Gaslamp
+- Little Italy
+- Golden Hill
+- Barrio Logan
+- Marina District
+- Sherman Heights
+- Bankers Hill
+- Cortez Hill
+
 **California National Parks**
 - Yosemite
 - Joshua Tree
