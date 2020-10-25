@@ -8,7 +8,7 @@ What we haven't talked about yet - and what will help answer these types of ques
 
 So, the goal for this section then is to familiarize you with the **React Component Lifecycle** and get you thinking about how it shapes how we code React components.
 
- ## The Big Picture
+## The Big Picture
 
 First, let's look at the big picture. For that, we'll go straight to a great diagram on the official React docs: [React Component Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
@@ -69,7 +69,7 @@ export default Button;
 
 If we inspect the browser now, we now see the `log` statement indicating that the `render()` ran. It doesn't tell us much so let's add to our application.
 
-Another lifecycle method that we use quite a lot is the `contructor()`. If you recall from the lifecycle diagram, the `constructor()` runs before the `render()` method in the **mounting phase** of our React components.
+Another lifecycle method that we use quite a lot is the `constructor()`. If you recall from the lifecycle diagram, the `constructor()` runs before the `render()` method in the **mounting phase** of our React components.
 
 So let's say we wanted to equip our button with some state. We'll initialize it with a `clicked` state and we'll also add some `log` statements to see when it runs.
 
@@ -98,14 +98,14 @@ Our componentDidMount:
   }
 ```
 
-Now we can see the beginning and the ending of the **mount phase**. Notice that it encapsulates a call to the constructor`, the `render`, and the `componentDidUpdate`.
+Now we can see the beginning and the ending of the **mount phase**. Notice that it encapsulates a call to the `constructor`, the `render`, and the `componentDidUpdate`.
 
 Let's take a look now at the **update phase**. You may recall from the diagram that a call to `setState()` is one of the ways that an update phase is triggered. Let's add an `onClick` that triggers a state change and see how that looks in the lifecycle.
 
 Here's our final `Button` component code:
 
 ```javascript
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Button extends Component {
   constructor(props){
@@ -141,7 +141,7 @@ class Button extends Component {
   }
 }
 
-export default Button;
+export default Button
 ```
 
 Now as we click, we can observe something really interesting about what our `handleClick` is doing. First, we've superficially indicated that `handleClick()` is triggering the update phase and that it is attempting to change state. But the next thing we see, after every click and 'UPDATING' marker, we see the 'RENDERING' marker. As the diagram indicates, `setState()` triggers and retriggers the `render()` method.
@@ -149,4 +149,9 @@ Now as we click, we can observe something really interesting about what our `han
 Experiments like these reveal a great deal about what is happening in React under the hood. Taking time to understand the component lifecycle in React will help you better debug your applications and give you a few additional tools for creating functionality in your React components.
 
 
-[Back to Syllabus](../README.md)
+### Component Lifecycle
+Before the app loads on a page, nothing exists of course, then something happens, and React starts up on the page.  At that point, some components are loaded onto the page but not all of them.  Afterwards, the user can begin to interact with the web page.  They may click a link for example, and our router springs into action. At that point, a new Component may be loaded onto the page, or if it already exists on the page, it may just be refreshed with new props.
+
+These actions, initializing, receiving props, unloading, etc. are what we refer to as component lifecycle. [React's docs](https://reactjs.org/docs/react-component.html) are mandatory reading for understanding this stuff, so take a few minutes and head over there to read them.  Pay special attention to the lifecycle sections to better understand this topic.
+
+[ Back to Syllabus ](../README.md#unit-two-introduction-to-react)
