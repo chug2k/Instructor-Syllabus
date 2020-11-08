@@ -14,6 +14,18 @@ Preset breakout rooms can be added to the reoccurring Zoom meeting. Rooms can be
 - Bankers Hill
 - Cortez Hill
 
+**Zoo Exhibits**
+- Tiger Trail
+- Polar Bear Plunge
+- Elephant Odyssey
+- Ethiopian Highlands
+- Monkey Trails
+- Madagascar Forest
+- Reptile Mesa
+- River Hippo Habitat
+- Sun Bear Forest
+- Aviary
+
 **California National Parks**
 - Yosemite
 - Joshua Tree
